@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
