@@ -7,13 +7,20 @@
 ul {
     display: flex;
     list-style-type: none;
-    gap: 8px;
+    gap: 16px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .Logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
@@ -21,3 +28,29 @@ ul {
     align-items: center;
 }
 
+.icon1, .icon2, .icon3, .icon4 {
+    width: 150px;
+    height: 150px;
+}
+
+.home-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info-boxes {
+    background-color: white;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+}
